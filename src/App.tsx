@@ -9,7 +9,6 @@ const App = () => (
   <ThemeProvider theme={theme}>
     <CssBaseline />
     <div>
-      <Typography color={'primary'} variant="h1" component="h2">LANBROS</Typography>
       <Frontpage></Frontpage>
     </div>
   </ThemeProvider>
