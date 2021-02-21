@@ -7,6 +7,7 @@ import { Theme, useMediaQuery } from '@material-ui/core';
 
 function App() {
   const isWide = useMediaQuery((theme: Theme) => theme.breakpoints.up('lg'));
+  const isUltraWide = useMediaQuery((theme: Theme) => theme.breakpoints.only('xl'));
 
   return (
     <React.Fragment>
@@ -16,7 +17,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Frontpage}></Route>
             <Route exact path="/gameservers">
-              <Gameservers isWide={isWide}></Gameservers>
+              <Gameservers isWide={isWide} isUltraWide={isUltraWide}></Gameservers>
             </Route>
             <Route path="*">
               <Redirect to="/" />
