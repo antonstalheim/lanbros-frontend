@@ -23,7 +23,7 @@ function Frontpage() {
     return (
         <Box mt={'45vh'}>
             <Grid container>
-                <Grid item xs={12} style={{ textAlign: 'center', mixBlendMode: 'overlay' }}>
+                <Grid item xs={12} style={{ textAlign: 'center' }}>
                     <img height="auto" style={{maxWidth: '50%'}} src={lanbrosTextLogotype} />
                 </Grid>
                 <Grid item xs={12} style={{ textAlign: 'center', color: 'white' }}>
