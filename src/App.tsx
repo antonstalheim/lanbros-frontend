@@ -4,6 +4,7 @@ import Frontpage from './frontpage/Frontpage';
 import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 import Gameservers from './frontpage/Gameservers';
 import { Theme, useMediaQuery } from '@material-ui/core';
+import Footer from './components/Footer';
 
 function App() {
   const isWide = useMediaQuery((theme: Theme) => theme.breakpoints.up('lg'));
@@ -24,6 +25,7 @@ function App() {
             </Route>
           </Switch>
         </Router>
+        <Footer></Footer>
       </div>
     </React.Fragment>
   )
