@@ -18,6 +18,11 @@ const theme = createMuiTheme({
           backgroundSize: 'cover'
         }
       }
+    },
+    MuiCard: {
+      root: {
+        borderRadius: '0px'
+      }
     }
   },
   palette: {
