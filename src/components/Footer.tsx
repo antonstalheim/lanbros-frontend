@@ -23,12 +23,19 @@ const useStyles = makeStyles(() =>
 function Footer() {
     const classes = useStyles();
 
+    const routeToGithub = () => {
+        window.location.assign('https://github.com/antonpettersson/lanbros-minecraft-frontend');
+    };
+    const routeToDiscord = () => {
+        window.location.assign('http://discord.lanbros.net');
+    };
+
     return (
         <Grid container>
             <Grid item xs={12}>
                 <BottomNavigation className={classes.footer}>
-                    <BottomNavigationAction icon={<FaGithub />} />
-                    <BottomNavigationAction icon={<FaDiscord />} />
+                    <BottomNavigationAction onClick={routeToGithub} icon={<FaGithub />} />
+                    <BottomNavigationAction onClick={routeToDiscord} icon={<FaDiscord />} />
                     <BottomNavigationAction icon={<FaEnvelope />} />
                 </BottomNavigation>
             </Grid>
