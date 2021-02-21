@@ -1,11 +1,13 @@
 import React from 'react';
-import { Grid, Box, Card, CardHeader, CardContent, useMediaQuery, Theme } from '@material-ui/core';
+import { Grid, Box, Card, CardHeader, CardContent } from '@material-ui/core';
 import lanbrosTextLogotype from '../assets/lanbros_logo.png';
 import { useHistory } from 'react-router-dom';
 
-function Gameservers() {
-    const isWide = useMediaQuery((theme: Theme) => theme.breakpoints.up('lg'));
+interface GameserverProps {
+    isWide: boolean;
+}
 
+function Gameservers(props: GameserverProps) {
     const history = useHistory();
     const routeToHome = () => history.push('/');
 
@@ -20,7 +22,7 @@ function Gameservers() {
                     </Grid>
                 </Grid>
             </Box>
-            <Box mt={5} ml={isWide ? 40 : 5} mr={isWide ? 40 : 5}>
+            <Box mt={5} ml={props.isWide ? 40 : 5} mr={props.isWide ? 40 : 5}>
                 <Box mt={20}></Box>
                 <Grid container spacing={4}>
                     <Grid item xs={12}>
