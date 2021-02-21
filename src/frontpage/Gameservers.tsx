@@ -17,32 +17,36 @@ function Gameservers() {
     const routeToHome = () => history.push('/');
 
     return (
-        <Box mt={5} ml={10} mr={10}>
-            <Grid container>
-                <Grid item xs={4}>
-                    <img onClick={routeToHome} height="auto" width="100%" style={{ maxWidth: '200px', cursor: 'pointer' }} src={lanbrosTextLogotype} />
+        <React.Fragment>
+            <Box pt={2} pb={2} pl={10} style={{backgroundColor: 'white'}}>
+                <Grid container>
+                    <Grid item xs={4}>
+                        <img onClick={routeToHome} height="auto" width="100%" style={{ maxWidth: '200px', cursor: 'pointer', mixBlendMode: 'difference', display: 'flex' }} src={lanbrosTextLogotype} />
+                    </Grid>
                 </Grid>
-            </Grid>
-            <Box mt={30}></Box>
-            <Grid container spacing={4}>
-                <Grid item xs={4}>
-                    <Card>
-                        <CardHeader title="En testtitel"></CardHeader>
-                        <CardContent>hurr burr</CardContent>
-                    </Card>
+            </Box>
+            <Box mt={5} ml={10} mr={10}>
+                <Box mt={30}></Box>
+                <Grid container spacing={4}>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardHeader title="En testtitel"></CardHeader>
+                            <CardContent>hurr burr</CardContent>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardHeader title="En testtitel"></CardHeader>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardHeader title="En testtitel"></CardHeader>
+                        </Card>
+                    </Grid>
                 </Grid>
-                <Grid item xs={4}>
-                    <Card>
-                        <CardHeader title="En testtitel"></CardHeader>
-                    </Card>
-                </Grid>
-                <Grid item xs={4}>
-                    <Card>
-                        <CardHeader title="En testtitel"></CardHeader>
-                    </Card>
-                </Grid>
-            </Grid>
-        </Box>
+            </Box>
+        </React.Fragment>
     );
 }
 
