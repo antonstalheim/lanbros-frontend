@@ -19,7 +19,6 @@ const useStyles = makeStyles(() =>
     })
 );
 
-
 interface GameserverProps {
     isWide: boolean;
     isUltraWide: boolean;

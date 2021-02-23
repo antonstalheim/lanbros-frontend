@@ -3,7 +3,6 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { FaDiscord } from 'react-icons/fa';
 
-
 const useStyles = makeStyles(() =>
     createStyles({
         footer: {
