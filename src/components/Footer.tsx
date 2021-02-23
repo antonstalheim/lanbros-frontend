@@ -27,8 +27,6 @@ const useStyles = makeStyles(() =>
     })
 )
 
-// TODO: replace bottomnavigation with div and buttons instead, lighter and easier to customize for our needs.
-
 function Footer() {
     const classes = useStyles();
 
