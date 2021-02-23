@@ -1,18 +1,27 @@
-import { BottomNavigationAction, Grid, BottomNavigation, makeStyles, createStyles } from "@material-ui/core";
+import { Grid, makeStyles, createStyles, IconButton } from "@material-ui/core";
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { FaDiscord } from 'react-icons/fa';
-import { FaEnvelope } from 'react-icons/fa';
 
 
 const useStyles = makeStyles(() =>
     createStyles({
         footer: {
+            display: 'flex',
+            justifyContent: 'center',
             position: 'absolute',
             bottom: '0',
             width: '100%',
             '& svg': {
                 fontSize: '1.4em'
+            }
+        },
+        footerIconButton: {
+            color: '#fff',
+            opacity: '0.3',
+            transition: 'opacity 0.2s',
+            '&:hover': {
+                opacity: '1'
             }
         }
     })
@@ -33,11 +42,14 @@ function Footer() {
     return (
         <Grid container>
             <Grid item xs={12}>
-                <BottomNavigation className={classes.footer}>
-                    <BottomNavigationAction onClick={routeToGithub} icon={<FaGithub />} />
-                    <BottomNavigationAction onClick={routeToDiscord} icon={<FaDiscord />} />
-                    <BottomNavigationAction icon={<FaEnvelope />} />
-                </BottomNavigation>
+                <div className={classes.footer}>
+                    <IconButton onClick={routeToGithub} className={classes.footerIconButton} aria-label="delete">
+                        <FaGithub />
+                    </IconButton>
+                    <IconButton onClick={routeToDiscord} className={classes.footerIconButton} aria-label="delete">
+                        <FaDiscord />
+                    </IconButton>
+                </div>
             </Grid>
         </Grid>
     )

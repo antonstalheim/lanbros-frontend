@@ -41,7 +41,7 @@ function Gameservers(props: GameserverProps) {
                     </Grid>
                 </Grid>
             </Box>
-            <Box mt={5} ml={props.isUltraWide ? 80 : props.isWide ? 40 : 5} mr={props.isUltraWide ? 80 : props.isWide ? 40 : 5}>
+            <Box mt={5} ml={props.isUltraWide ? 60 : props.isWide ? 40 : 5} mr={props.isUltraWide ? 60 : props.isWide ? 40 : 5}>
                 <Box mt={(props.isWide || props.isUltraWide) ? 20 : 5}></Box>
                 <Grid container spacing={4}>
                     <Grid item xs={12}>
