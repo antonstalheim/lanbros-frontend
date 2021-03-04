@@ -1,4 +1,3 @@
-import React from "react";
 import { useHistory } from "react-router-dom";
 import {
   Grid,
@@ -33,6 +32,9 @@ function Frontpage() {
   const routeToDiscord = () => {
     window.location.assign("http://discord.lanbros.net");
   };
+  const routeToShop = () => {
+    window.location.assign("https://shop.spreadshirt.se/lanbros/");
+  };
 
   return (
     <Box mt={"20vh"}>
@@ -62,6 +64,15 @@ function Frontpage() {
               Discord
             </Button>
             <Button
+              onClick={routeToShop}
+              style={{ marginRight: "5px" }}
+              variant="outlined"
+              size="large"
+              className={classes.jumboButton}
+            >
+              Merch
+            </Button>
+{/*             <Button
               onClick={routeToGameservers}
               style={{ marginLeft: "5px" }}
               variant="outlined"
@@ -69,7 +80,7 @@ function Frontpage() {
               className={classes.jumboButton}
             >
               Spelservrar
-            </Button>
+            </Button> */}
           </Box>
         </Grid>
       </Grid>
