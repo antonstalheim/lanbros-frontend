@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/lanbros-frontend/static/js/main.2c33327a.chunk.js",
-    "main.js.map": "/lanbros-frontend/static/js/main.2c33327a.chunk.js.map",
-    "runtime-main.js": "/lanbros-frontend/static/js/runtime-main.32710e19.js",
-    "runtime-main.js.map": "/lanbros-frontend/static/js/runtime-main.32710e19.js.map",
-    "static/js/2.3a8d0632.chunk.js": "/lanbros-frontend/static/js/2.3a8d0632.chunk.js",
-    "static/js/2.3a8d0632.chunk.js.map": "/lanbros-frontend/static/js/2.3a8d0632.chunk.js.map",
-    "static/js/3.8f55b8f1.chunk.js": "/lanbros-frontend/static/js/3.8f55b8f1.chunk.js",
-    "static/js/3.8f55b8f1.chunk.js.map": "/lanbros-frontend/static/js/3.8f55b8f1.chunk.js.map",
-    "index.html": "/lanbros-frontend/index.html",
-    "static/js/2.3a8d0632.chunk.js.LICENSE.txt": "/lanbros-frontend/static/js/2.3a8d0632.chunk.js.LICENSE.txt",
-    "static/media/lanbros_logo.c06d1941.png": "/lanbros-frontend/static/media/lanbros_logo.c06d1941.png",
-    "static/media/lbrs_logotype_with_mascot.c8f786b1.png": "/lanbros-frontend/static/media/lbrs_logotype_with_mascot.c8f786b1.png",
-    "static/media/minecraft.d73cd302.jpg": "/lanbros-frontend/static/media/minecraft.d73cd302.jpg",
-    "static/media/pexels-keyboard.0cf16003.jpg": "/lanbros-frontend/static/media/pexels-keyboard.0cf16003.jpg",
-    "static/media/valheim.288b1584.jpg": "/lanbros-frontend/static/media/valheim.288b1584.jpg"
+    "main.js": "/static/js/main.2c33327a.chunk.js",
+    "main.js.map": "/static/js/main.2c33327a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7f934724.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7f934724.js.map",
+    "static/js/2.3a8d0632.chunk.js": "/static/js/2.3a8d0632.chunk.js",
+    "static/js/2.3a8d0632.chunk.js.map": "/static/js/2.3a8d0632.chunk.js.map",
+    "static/js/3.8f55b8f1.chunk.js": "/static/js/3.8f55b8f1.chunk.js",
+    "static/js/3.8f55b8f1.chunk.js.map": "/static/js/3.8f55b8f1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.3a8d0632.chunk.js.LICENSE.txt": "/static/js/2.3a8d0632.chunk.js.LICENSE.txt",
+    "static/media/lanbros_logo.c06d1941.png": "/static/media/lanbros_logo.c06d1941.png",
+    "static/media/lbrs_logotype_with_mascot.c8f786b1.png": "/static/media/lbrs_logotype_with_mascot.c8f786b1.png",
+    "static/media/minecraft.d73cd302.jpg": "/static/media/minecraft.d73cd302.jpg",
+    "static/media/pexels-keyboard.0cf16003.jpg": "/static/media/pexels-keyboard.0cf16003.jpg",
+    "static/media/valheim.288b1584.jpg": "/static/media/valheim.288b1584.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.32710e19.js",
+    "static/js/runtime-main.7f934724.js",
     "static/js/2.3a8d0632.chunk.js",
     "static/js/main.2c33327a.chunk.js"
   ]
