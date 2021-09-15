@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.2c33327a.chunk.js",
-    "main.js.map": "/static/js/main.2c33327a.chunk.js.map",
+    "main.js": "/static/js/main.b8d9aeca.chunk.js",
+    "main.js.map": "/static/js/main.b8d9aeca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7f934724.js",
     "runtime-main.js.map": "/static/js/runtime-main.7f934724.js.map",
     "static/js/2.3a8d0632.chunk.js": "/static/js/2.3a8d0632.chunk.js",
@@ -11,7 +11,7 @@
     "index.html": "/index.html",
     "static/js/2.3a8d0632.chunk.js.LICENSE.txt": "/static/js/2.3a8d0632.chunk.js.LICENSE.txt",
     "static/media/lanbros_logo.c06d1941.png": "/static/media/lanbros_logo.c06d1941.png",
-    "static/media/lbrs_logotype_with_mascot.c8f786b1.png": "/static/media/lbrs_logotype_with_mascot.c8f786b1.png",
+    "static/media/lanbros_logotype_with_mascot.e4f5a42b.png": "/static/media/lanbros_logotype_with_mascot.e4f5a42b.png",
     "static/media/minecraft.d73cd302.jpg": "/static/media/minecraft.d73cd302.jpg",
     "static/media/pexels-keyboard.0cf16003.jpg": "/static/media/pexels-keyboard.0cf16003.jpg",
     "static/media/valheim.288b1584.jpg": "/static/media/valheim.288b1584.jpg"
@@ -19,6 +19,6 @@
   "entrypoints": [
     "static/js/runtime-main.7f934724.js",
     "static/js/2.3a8d0632.chunk.js",
-    "static/js/main.2c33327a.chunk.js"
+    "static/js/main.b8d9aeca.chunk.js"
   ]
 }
